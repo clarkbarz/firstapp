@@ -21,6 +21,7 @@
 		E2E179D3171F5C64003AAEC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E179B4171F5C63003AAEC9 /* Foundation.framework */; };
 		E2E179DB171F5C64003AAEC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2E179D9171F5C64003AAEC9 /* InfoPlist.strings */; };
 		E2E179DE171F5C64003AAEC9 /* firstappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E179DD171F5C64003AAEC9 /* firstappTests.m */; };
+		E2E179E9171F5C76003AAEC9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E179E8171F5C76003AAEC9 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E2E179DA171F5C64003AAEC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2E179DC171F5C64003AAEC9 /* firstappTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = firstappTests.h; sourceTree = "<group>"; };
 		E2E179DD171F5C64003AAEC9 /* firstappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = firstappTests.m; sourceTree = "<group>"; };
+		E2E179E7171F5C76003AAEC9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		E2E179E8171F5C76003AAEC9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		E2E179B8171F5C63003AAEC9 /* firstapp */ = {
 			isa = PBXGroup;
 			children = (
+				E2E179E7171F5C76003AAEC9 /* MainViewController.h */,
+				E2E179E8171F5C76003AAEC9 /* MainViewController.m */,
 				E2E179C1171F5C63003AAEC9 /* AppDelegate.h */,
 				E2E179C2171F5C63003AAEC9 /* AppDelegate.m */,
 				E2E179B9171F5C63003AAEC9 /* Supporting Files */,
@@ -263,6 +268,7 @@
 			files = (
 				E2E179BF171F5C63003AAEC9 /* main.m in Sources */,
 				E2E179C3171F5C63003AAEC9 /* AppDelegate.m in Sources */,
+				E2E179E9171F5C76003AAEC9 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
